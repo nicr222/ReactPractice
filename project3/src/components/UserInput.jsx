@@ -46,8 +46,8 @@ export default function UserInput({ onChange, userInput }) {
                     required 
                     value={userInput.duration}
                     onChange={(event) => 
-                        onchange('duration', event.target.value)
-                    } 
+                        onChange('duration', event.target.value)
+                    }
                 />
             </p>
         </div>
